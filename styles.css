@@ -25,22 +25,36 @@ header h1 {
   padding: 25px;
 }
 
+button {
+  width: 100px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 2fr auto auto 2fr;
+  padding-top: 10px;
+}
+
 #canvas {
   border: 3px solid #393e41;
   display: grid;
-  grid-template-columns: repeat(10, 50px);
+  grid-template-columns: repeat(40, 12.5px);
+  grid-template-rows: repeat(40, 12.5px);
   height: 500px;
   margin: 0 auto;
   width: 500px;
+  background-size: cover;
 }
 
 .cell {
-  border: 1px solid #393e41;
+  border: 1px solid #626769;
   box-sizing: border-box;
-  display: inline-block;
+  /* display: inline-block; */
   margin: 0;
-  height: 50px;
-  width: 50px;
+  height: 12.5px;
+  width: 12.5px;
+  background-size: cover;
+  background-position: center;
 }
 
 #current-color {
@@ -49,6 +63,8 @@ header h1 {
   height: 50px;
   margin: 25px auto;
   width: 50px;
+  background-size: cover;
+  background-position: center;
 }
 
 #palette {

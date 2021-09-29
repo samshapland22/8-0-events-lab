@@ -36,9 +36,9 @@ This will open the Cypress testing window, where you can click to run an individ
 
 To get the tests to pass for this lab, you will need to complete the following tasks. If you're unclear about any of the instructions below, remember that you can check the test file to see what exactly is being tested.
 
-- [ ] When a color is clicked in the `#palette`, the `#current-color` element should have its background changed to that color. For example, if you click the green circle in the `#palette`, the `#current-color` element's background should change to be green.
+- [x] When a color is clicked in the `#palette`, the `#current-color` element should have its background changed to that color. For example, if you click the green circle in the `#palette`, the `#current-color` element's background should change to be green.
 
-- [ ] When you click on a `.cell`, its background should change to match the background of `#current-color`.
+- [x] When you click on a `.cell`, its background should change to match the background of `#current-color`.
 
 ### Tip
 
@@ -48,7 +48,7 @@ Remember that you can access an elements style declarations by accessing the `.s
 
 Attempt to implement _at least one_ of the following features:
 
-- [ ] Increase the number of cells without increasing the width or height of the `#canvas` element.
+- [x] Increase the number of cells without increasing the width or height of the `#canvas` element.
 - [ ] Change the event listener so that instead of clicking to fill a color, you hold down your mouse.
 - [ ] Create a button that, when clicked, resets all cells so that they all have a background of white.
 - [ ] Create a button that, when clicked, changes all of the cells so that they match the `#current-color` element's background.

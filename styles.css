@@ -4,6 +4,8 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-image: url("./assets/room.png");
+  background-size: cover;
 }
 
 h1,
@@ -16,17 +18,41 @@ h6 {
 }
 
 header {
-  background: #7e7f9a;
-  color: white;
+  background-image: url("./assets/bluevelvet.jpeg");
+  color: rgb(3, 1, 93);
+  transition: all 0.7s ease-out;
+}
+
+header:hover {
+  letter-spacing: 5px;
+  color: rgb(252, 241, 241);
 }
 
 header h1 {
+  font-size: 40px;
   margin: 0 0 50px;
   padding: 25px;
+  text-align: center;
 }
 
 button {
   width: 100px;
+  margin: 10px;
+  margin-bottom: 0px;
+  padding: 10px;
+  border-radius: 2px;
+  border: 2px solid rgb(15, 4, 75);
+  background-color: rgb(8, 7, 110);
+  color: whitesmoke;
+  letter-spacing: 2px;
+  transition: all 0.7s ease-out;
+}
+
+button:hover {
+  background-color: rgb(108, 4, 4);
+  border: 2px solid rgb(160, 0, 0);
+  color: rgb(226, 208, 147);
+  letter-spacing: 4px;
 }
 
 .buttons {
@@ -44,6 +70,7 @@ button {
   margin: 0 auto;
   width: 500px;
   background-size: cover;
+  background-color: whitesmoke;
 }
 
 .cell {
